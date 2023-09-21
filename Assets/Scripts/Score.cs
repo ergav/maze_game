@@ -6,4 +6,9 @@ using UnityEngine;
 public class Score : ScriptableObject
 {
     public int score;
+
+    public void AddScore(int scoreToAdd)
+    {
+        score += scoreToAdd;
+    }
 }
